@@ -1,0 +1,11 @@
+fragments/
+fragments_2d/
+fragments.tar
+fragments_2d.zip
+Miniconda3-latest-Linux-x86_64.sh
+venv/
+*.tar
+*.zip
+*.sh
+__pycache__/
+*.pyc
