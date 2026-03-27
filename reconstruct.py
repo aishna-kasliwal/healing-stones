@@ -75,6 +75,7 @@ def load_fragments(path):
             pcd = mesh.sample_points_uniformly(number_of_points=MAX_POINTS * 2) \
                 if len(mesh.vertices) > 0 else o3d.io.read_point_cloud(f)
             pcd = boundary_sample(pcd, n_points=MAX_POINTS)
+            pcd=augment_pointcloud(pcd, n_aug=2)[0]
             pcd, _ = pca_align(pcd)
             pcd.estimate_normals(search_param=o3d.geometry.KDTreeSearchParamHybrid(radius=10.0, max_nn=30))
             print(f"    -> {len(pcd.points)} points")
@@ -639,3 +640,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def augment_pointcloud(pcd, n_aug=2):
+    augmented = [pcd]
+    for _ in range(n_aug):
+        R = pcd.get_rotation_matrix_from_xyz(
+            np.random.uniform(-np.pi/8, np.pi/8, 3))
+        aug = o3d.geometry.PointCloud(pcd)
+        aug.rotate(R, center=aug.get_center())
+        pts = np.asarray(aug.points)
+        pts += np.random.normal(0, 0.5, pts.shape)
+        aug.points = o3d.utility.Vector3dVector(pts)
+        augmented.append(aug)
+    return augmented
