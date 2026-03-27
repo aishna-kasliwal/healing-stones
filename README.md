@@ -65,3 +65,11 @@ All saved automatically to `output_ml/` and `output_2d/`:
 - `fitness_matrix.png` — pairwise registration heatmap
 - `connectivity_graph.png` — fragment connectivity
 - `before_after.png` — before vs after registration
+
+## Pre-trained Models
+
+Available on Google Drive: https://drive.google.com/drive/folders/1Jy0osy4LKdsE-N0MY2ZOhBHG0SHG-j_V?usp=sharing
+
+- `break_classifier.pkl` — Random Forest break surface classifier
+- `relationship_predictor.pth` — Neural Network fragment relationship predictor
+- `vertical_order_net.pth` — Neural Network vertical ordering predictor
