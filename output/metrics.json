@@ -1,0 +1,15 @@
+{
+  "total_fragments": 17,
+  "pairs_matched": 70,
+  "total_pairs": 136,
+  "match_coverage_%": 51.47,
+  "avg_fitness": 0.1353,
+  "max_fitness": 1.0,
+  "num_graph_edges": 21,
+  "gap_analysis": {
+    "total_voxels": 2935764,
+    "filled_voxels": 195923,
+    "gap_ratio_%": 93.33
+  },
+  "runtime_seconds": 4264.66
+}

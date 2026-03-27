@@ -1,0 +1,745 @@
+nohup: ignoring input
+found 17 fragments
+  loading NAR_ST_43B_FR_01_F_01_R_02.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_02_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_03_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_04_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_05_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_06_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_07_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_08_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_09_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_10_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_11_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_12_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_13_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_14_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_15_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_16_F_01_R_01.PLY...
+    -> 100000 points
+  loading NAR_ST_43B_FR_17_F_01_R_01.PLY...
+    -> 100000 points
+
+computing 136 pairwise registrations (overnight mode)...
+  [1/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.203 rmse=4.5274
+  [2/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.099 rmse=4.4486
+[1;33m[Open3D WARNING] Too few correspondences (264) after mutual filter, fall back to original correspondences.[0;m
+  [3/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.119 rmse=4.4110
+  [4/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.124 rmse=4.4125
+[1;33m[Open3D WARNING] Too few correspondences (271) after mutual filter, fall back to original correspondences.[0;m
+  [5/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.168 rmse=2.8303
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (16) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (40) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (52) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (136) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (418) after mutual filter, fall back to original correspondences.[0;m
+  [6/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=1.6669
+[1;33m[Open3D WARNING] Too few correspondences (249) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (501) after mutual filter, fall back to original correspondences.[0;m
+  [7/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.042 rmse=4.5333
+[1;33m[Open3D WARNING] Too few correspondences (259) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (626) after mutual filter, fall back to original correspondences.[0;m
+  [8/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.085 rmse=4.5819
+[1;33m[Open3D WARNING] Too few correspondences (237) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (513) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1196) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (2462) after mutual filter, fall back to original correspondences.[0;m
+  [9/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.078 rmse=4.4377
+[1;33m[Open3D WARNING] Too few correspondences (197) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (599) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1510) after mutual filter, fall back to original correspondences.[0;m
+  [10/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.043 rmse=4.5579
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (31) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (62) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (117) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (465) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1294) after mutual filter, fall back to original correspondences.[0;m
+  [11/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.003 rmse=2.0436
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (16) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (38) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (54) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (146) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (413) after mutual filter, fall back to original correspondences.[0;m
+  [12/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (18) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (11) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (36) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (196) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (517) after mutual filter, fall back to original correspondences.[0;m
+  [13/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=5.2704
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (9) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (28) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (26) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (84) after mutual filter, fall back to original correspondences.[0;m
+  [14/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (13) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (29) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (60) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (163) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (544) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1296) after mutual filter, fall back to original correspondences.[0;m
+  [15/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.005 rmse=3.8909
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (19) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (107) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (403) after mutual filter, fall back to original correspondences.[0;m
+  [16/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.5643
+  [17/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.147 rmse=4.3854
+[1;33m[Open3D WARNING] Too few correspondences (319) after mutual filter, fall back to original correspondences.[0;m
+  [18/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.081 rmse=4.5867
+  [19/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.166 rmse=4.6335
+[1;33m[Open3D WARNING] Too few correspondences (340) after mutual filter, fall back to original correspondences.[0;m
+  [20/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.077 rmse=4.5659
+  [checkpoint saved at 20/136]
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (13) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (43) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (58) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (171) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (452) after mutual filter, fall back to original correspondences.[0;m
+  [21/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.001 rmse=1.8187
+[1;33m[Open3D WARNING] Too few correspondences (320) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (643) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1595) after mutual filter, fall back to original correspondences.[0;m
+  [22/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.056 rmse=4.4525
+[1;33m[Open3D WARNING] Too few correspondences (233) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (618) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1616) after mutual filter, fall back to original correspondences.[0;m
+  [23/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.062 rmse=4.4341
+[1;33m[Open3D WARNING] Too few correspondences (267) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (592) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1287) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (2776) after mutual filter, fall back to original correspondences.[0;m
+  [24/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.124 rmse=3.9998
+[1;33m[Open3D WARNING] Too few correspondences (222) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (682) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1602) after mutual filter, fall back to original correspondences.[0;m
+  [25/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.076 rmse=4.4813
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (32) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (51) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (122) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (495) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1218) after mutual filter, fall back to original correspondences.[0;m
+  [26/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.002 rmse=2.0107
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (13) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (42) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (53) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (154) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (433) after mutual filter, fall back to original correspondences.[0;m
+  [27/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.001 rmse=1.4572
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (22) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (14) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (47) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (208) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (535) after mutual filter, fall back to original correspondences.[0;m
+  [28/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.001 rmse=1.4073
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (24) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (30) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (89) after mutual filter, fall back to original correspondences.[0;m
+  [29/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (18) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (34) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (61) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (160) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (578) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1305) after mutual filter, fall back to original correspondences.[0;m
+  [30/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.005 rmse=4.4160
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (9) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (27) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (140) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (456) after mutual filter, fall back to original correspondences.[0;m
+  [31/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.001 rmse=1.2544
+[1;33m[Open3D WARNING] Too few correspondences (221) after mutual filter, fall back to original correspondences.[0;m
+  [32/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.113 rmse=4.4516
+  [33/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.254 rmse=4.5511
+[1;33m[Open3D WARNING] Too few correspondences (229) after mutual filter, fall back to original correspondences.[0;m
+  [34/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.146 rmse=4.5358
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (15) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (43) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (52) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (123) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (426) after mutual filter, fall back to original correspondences.[0;m
+  [35/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (247) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (572) after mutual filter, fall back to original correspondences.[0;m
+  [36/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.063 rmse=4.4469
+[1;33m[Open3D WARNING] Too few correspondences (194) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (583) after mutual filter, fall back to original correspondences.[0;m
+  [37/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.087 rmse=4.5294
+[1;33m[Open3D WARNING] Too few correspondences (216) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (504) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1207) after mutual filter, fall back to original correspondences.[0;m
+  [38/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.075 rmse=4.2775
+[1;33m[Open3D WARNING] Too few correspondences (190) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (603) after mutual filter, fall back to original correspondences.[0;m
+  [39/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.071 rmse=4.6305
+[1;33m[Open3D WARNING] Too few correspondences (15) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (35) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (54) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (119) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (422) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1185) after mutual filter, fall back to original correspondences.[0;m
+  [40/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+  [checkpoint saved at 40/136]
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (16) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (43) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (51) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (127) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (430) after mutual filter, fall back to original correspondences.[0;m
+  [41/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (23) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (14) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (62) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (199) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (530) after mutual filter, fall back to original correspondences.[0;m
+  [42/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (9) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (22) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (35) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (83) after mutual filter, fall back to original correspondences.[0;m
+  [43/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (22) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (36) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (66) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (159) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (568) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1309) after mutual filter, fall back to original correspondences.[0;m
+  [44/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (18) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (103) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (373) after mutual filter, fall back to original correspondences.[0;m
+  [45/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (199) after mutual filter, fall back to original correspondences.[0;m
+  [46/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.131 rmse=2.9301
+  [47/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.287 rmse=4.4800
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (11) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (36) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (49) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (149) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (397) after mutual filter, fall back to original correspondences.[0;m
+  [48/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (138) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (485) after mutual filter, fall back to original correspondences.[0;m
+  [49/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.106 rmse=4.5915
+[1;33m[Open3D WARNING] Too few correspondences (147) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (505) after mutual filter, fall back to original correspondences.[0;m
+  [50/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.094 rmse=4.5255
+[1;33m[Open3D WARNING] Too few correspondences (123) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (435) after mutual filter, fall back to original correspondences.[0;m
+  [51/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.092 rmse=4.4421
+  [52/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.173 rmse=4.4750
+[1;33m[Open3D WARNING] Too few correspondences (11) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (18) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (54) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (117) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (470) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1222) after mutual filter, fall back to original correspondences.[0;m
+  [53/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (9) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (38) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (48) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (144) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (435) after mutual filter, fall back to original correspondences.[0;m
+  [54/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (19) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (14) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (39) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (201) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (474) after mutual filter, fall back to original correspondences.[0;m
+  [55/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (23) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (31) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (93) after mutual filter, fall back to original correspondences.[0;m
+  [56/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (14) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (31) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (53) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (159) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (533) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1335) after mutual filter, fall back to original correspondences.[0;m
+  [57/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (15) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (123) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (472) after mutual filter, fall back to original correspondences.[0;m
+  [58/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (201) after mutual filter, fall back to original correspondences.[0;m
+  [59/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.113 rmse=2.7705
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (16) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (45) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (62) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (154) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (431) after mutual filter, fall back to original correspondences.[0;m
+  [60/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.001 rmse=1.3674
+  [checkpoint saved at 60/136]
+[1;33m[Open3D WARNING] Too few correspondences (346) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (659) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1627) after mutual filter, fall back to original correspondences.[0;m
+  [61/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.090 rmse=4.4667
+[1;33m[Open3D WARNING] Too few correspondences (191) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (613) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1680) after mutual filter, fall back to original correspondences.[0;m
+  [62/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.042 rmse=4.5472
+[1;33m[Open3D WARNING] Too few correspondences (259) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (527) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1368) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (2824) after mutual filter, fall back to original correspondences.[0;m
+  [63/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.035 rmse=4.3987
+[1;33m[Open3D WARNING] Too few correspondences (177) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (597) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1517) after mutual filter, fall back to original correspondences.[0;m
+  [64/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.052 rmse=4.4920
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (33) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (66) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (132) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (483) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1239) after mutual filter, fall back to original correspondences.[0;m
+  [65/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.003 rmse=2.6587
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (18) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (41) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (68) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (175) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (442) after mutual filter, fall back to original correspondences.[0;m
+  [66/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.001 rmse=1.3715
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (29) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (18) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (57) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (206) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (507) after mutual filter, fall back to original correspondences.[0;m
+  [67/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.001 rmse=1.3205
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (26) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (37) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (94) after mutual filter, fall back to original correspondences.[0;m
+  [68/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.5570
+[1;33m[Open3D WARNING] Too few correspondences (20) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (33) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (73) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (183) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (581) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1245) after mutual filter, fall back to original correspondences.[0;m
+  [69/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.003 rmse=2.9879
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (20) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (132) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (423) after mutual filter, fall back to original correspondences.[0;m
+  [70/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.001 rmse=1.2888
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (13) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (27) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (39) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (113) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (369) after mutual filter, fall back to original correspondences.[0;m
+  [71/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (141) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (391) after mutual filter, fall back to original correspondences.[0;m
+  [72/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.062 rmse=4.3950
+[1;33m[Open3D WARNING] Too few correspondences (184) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (570) after mutual filter, fall back to original correspondences.[0;m
+  [73/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.096 rmse=4.3988
+[1;33m[Open3D WARNING] Too few correspondences (122) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (423) after mutual filter, fall back to original correspondences.[0;m
+  [74/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.046 rmse=4.3922
+[1;33m[Open3D WARNING] Too few correspondences (182) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (541) after mutual filter, fall back to original correspondences.[0;m
+  [75/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.131 rmse=4.4980
+[1;33m[Open3D WARNING] Too few correspondences (13) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (16) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (35) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (98) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (429) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1215) after mutual filter, fall back to original correspondences.[0;m
+  [76/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (15) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (28) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (40) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (112) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (355) after mutual filter, fall back to original correspondences.[0;m
+  [77/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (14) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (29) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (160) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (441) after mutual filter, fall back to original correspondences.[0;m
+  [78/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (22) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (20) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (69) after mutual filter, fall back to original correspondences.[0;m
+  [79/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (15) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (23) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (46) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (122) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (527) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1273) after mutual filter, fall back to original correspondences.[0;m
+  [80/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+  [checkpoint saved at 80/136]
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (17) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (122) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (428) after mutual filter, fall back to original correspondences.[0;m
+  [81/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+  [82/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.284 rmse=1.9594
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+  [83/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.233 rmse=1.5214
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+  [84/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.262 rmse=1.3597
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+  [85/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.347 rmse=1.7864
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+  [86/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.586 rmse=1.0263
+  [87/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=1.000 rmse=0.9209
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+  [88/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.447 rmse=0.5277
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (35) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (66) after mutual filter, fall back to original correspondences.[0;m
+  [89/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.094 rmse=1.3050
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+  [90/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.453 rmse=1.0501
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (36) after mutual filter, fall back to original correspondences.[0;m
+  [91/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.284 rmse=2.0053
+[1;33m[Open3D WARNING] Too few correspondences (143) after mutual filter, fall back to original correspondences.[0;m
+  [92/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.103 rmse=4.3419
+  [93/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.171 rmse=4.4836
+[1;33m[Open3D WARNING] Too few correspondences (145) after mutual filter, fall back to original correspondences.[0;m
+  [94/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.120 rmse=4.5578
+[1;33m[Open3D WARNING] Too few correspondences (12) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (35) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (73) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (132) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (500) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1352) after mutual filter, fall back to original correspondences.[0;m
+  [95/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (13) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (42) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (66) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (140) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (424) after mutual filter, fall back to original correspondences.[0;m
+  [96/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (21) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (19) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (61) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (194) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (484) after mutual filter, fall back to original correspondences.[0;m
+  [97/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.002 rmse=1.3912
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (27) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (24) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (74) after mutual filter, fall back to original correspondences.[0;m
+  [98/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (22) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (53) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (73) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (189) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (462) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1158) after mutual filter, fall back to original correspondences.[0;m
+  [99/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.009 rmse=2.8402
+[1;33m[Open3D WARNING] Too few correspondences (11) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (18) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (140) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (516) after mutual filter, fall back to original correspondences.[0;m
+  [100/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+  [checkpoint saved at 100/136]
+[1;33m[Open3D WARNING] Too few correspondences (130) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (342) after mutual filter, fall back to original correspondences.[0;m
+  [101/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.108 rmse=2.0069
+[1;33m[Open3D WARNING] Too few correspondences (181) after mutual filter, fall back to original correspondences.[0;m
+  [102/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.139 rmse=2.8941
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (38) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (55) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (121) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (472) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1269) after mutual filter, fall back to original correspondences.[0;m
+  [103/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.004 rmse=1.8400
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (12) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (37) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (60) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (135) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (395) after mutual filter, fall back to original correspondences.[0;m
+  [104/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (18) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (25) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (49) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (200) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (480) after mutual filter, fall back to original correspondences.[0;m
+  [105/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (22) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (23) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (66) after mutual filter, fall back to original correspondences.[0;m
+  [106/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (15) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (34) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (57) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (138) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (440) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1139) after mutual filter, fall back to original correspondences.[0;m
+  [107/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.010 rmse=4.3727
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (16) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (119) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (440) after mutual filter, fall back to original correspondences.[0;m
+  [108/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.001 rmse=3.6042
+  [109/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.165 rmse=4.1345
+[1;33m[Open3D WARNING] Too few correspondences (12) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (24) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (44) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (100) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (397) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1107) after mutual filter, fall back to original correspondences.[0;m
+  [110/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.006 rmse=2.8258
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (9) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (32) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (52) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (95) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (367) after mutual filter, fall back to original correspondences.[0;m
+  [111/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (14) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (12) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (32) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (160) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (433) after mutual filter, fall back to original correspondences.[0;m
+  [112/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (25) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (21) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (61) after mutual filter, fall back to original correspondences.[0;m
+  [113/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (19) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (37) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (48) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (108) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (423) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1065) after mutual filter, fall back to original correspondences.[0;m
+  [114/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.012 rmse=2.5512
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (16) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (112) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (415) after mutual filter, fall back to original correspondences.[0;m
+  [115/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.0000
+[1;33m[Open3D WARNING] Too few correspondences (14) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (34) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (63) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (164) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (493) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1280) after mutual filter, fall back to original correspondences.[0;m
+  [116/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.004 rmse=2.8144
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (14) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (40) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (70) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (169) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (449) after mutual filter, fall back to original correspondences.[0;m
+  [117/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.003 rmse=1.5421
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (20) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (23) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (56) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (223) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (532) after mutual filter, fall back to original correspondences.[0;m
+  [118/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.002 rmse=0.8548
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (28) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (39) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (98) after mutual filter, fall back to original correspondences.[0;m
+  [119/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.000 rmse=0.8360
+[1;33m[Open3D WARNING] Too few correspondences (21) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (45) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (76) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (178) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (598) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1380) after mutual filter, fall back to original correspondences.[0;m
+  [120/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.010 rmse=4.1842
+  [checkpoint saved at 120/136]
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (12) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (110) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (440) after mutual filter, fall back to original correspondences.[0;m
+  [121/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.002 rmse=2.0365
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (19) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (31) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (81) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (218) after mutual filter, fall back to original correspondences.[0;m
+  [122/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.114 rmse=1.4713
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (18) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (41) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (114) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (281) after mutual filter, fall back to original correspondences.[0;m
+  [123/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.254 rmse=2.8274
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (8) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (23) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (45) after mutual filter, fall back to original correspondences.[0;m
+  [124/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.044 rmse=1.5333
+  [125/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.793 rmse=1.3750
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (20) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (81) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (245) after mutual filter, fall back to original correspondences.[0;m
+  [126/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.205 rmse=2.8218
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (3) after mutual filter, fall back to original correspondences.[0;m
+  [127/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.407 rmse=0.7485
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (9) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (37) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (79) after mutual filter, fall back to original correspondences.[0;m
+  [128/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.108 rmse=1.4676
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+  [129/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.637 rmse=0.9372
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (7) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (31) after mutual filter, fall back to original correspondences.[0;m
+  [130/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.253 rmse=2.0282
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (10) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (32) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (79) after mutual filter, fall back to original correspondences.[0;m
+  [131/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.098 rmse=1.3033
+  [132/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.627 rmse=0.9963
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (4) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (15) after mutual filter, fall back to original correspondences.[0;m
+  [133/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.521 rmse=0.8885
+  [134/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.200 rmse=0.7744
+[1;33m[Open3D WARNING] Too few correspondences (1) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (12) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (28) after mutual filter, fall back to original correspondences.[0;m
+  [135/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.286 rmse=1.4109
+[1;33m[Open3D WARNING] Too few correspondences (2) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (5) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (6) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (25) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (86) after mutual filter, fall back to original correspondences.[0;m
+[1;33m[Open3D WARNING] Too few correspondences (206) after mutual filter, fall back to original correspondences.[0;m
+  [136/136] NAR_ST_43B_F <-> NAR_ST_43B_F | fitness=0.122 rmse=2.8979
+
+optimizing pose graph...
+[1;33m[Open3D WARNING] Certain-edge subset of PoseGraph is not connected.[0;m
+assembling...
+saved -> ./output/reconstructed_stele.ply
+
+metrics:
+  total_fragments: 17
+  pairs_matched: 70
+  total_pairs: 136
+  match_coverage_%: 51.47
+  avg_fitness: 0.1353
+  max_fitness: 1.0
+  num_graph_edges: 21
+  gap_analysis: {'total_voxels': 2935764, 'filled_voxels': 195923, 'gap_ratio_%': 93.33}
+  runtime_seconds: 4264.66
+saved -> ./output/fitness_matrix.png
+saved -> ./output/connectivity_graph.png
+saved -> ./output/before_after.png
+
+done in 4264.66s
+outputs in ./output/

@@ -1,0 +1,28 @@
+{
+  "total_fragments": 12,
+  "pairs_evaluated": 66,
+  "avg_match_score": 0.2651,
+  "top_5_matches": [
+    {
+      "pair": "05.png <-> 09.png",
+      "score": 0.3113
+    },
+    {
+      "pair": "03.png <-> 09.png",
+      "score": 0.3103
+    },
+    {
+      "pair": "01.png <-> 03.png",
+      "score": 0.3075
+    },
+    {
+      "pair": "01.png <-> 09.png",
+      "score": 0.3066
+    },
+    {
+      "pair": "03.png <-> 05.png",
+      "score": 0.3031
+    }
+  ],
+  "runtime_seconds": 21.51
+}
