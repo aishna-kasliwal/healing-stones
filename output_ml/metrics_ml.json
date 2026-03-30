@@ -2,17 +2,17 @@
   "method": "random forest + neural network + ransac + icp",
   "device": "cuda",
   "total_fragments": 17,
-  "break_classifier_accuracy_%": 97.57,
-  "pairs_matched": 70,
+  "break_classifier_accuracy_%": 97.66,
+  "pairs_matched": 65,
   "total_pairs": 136,
-  "match_coverage_%": 51.47,
-  "avg_fitness": 0.1357,
-  "max_fitness": 1.0,
-  "num_graph_edges": 27,
+  "match_coverage_%": 47.79,
+  "avg_fitness": 0.1,
+  "max_fitness": 0.9456,
+  "num_graph_edges": 21,
   "gap_analysis": {
-    "total_voxels": 2871176,
-    "filled_voxels": 160755,
-    "gap_ratio_%": 94.4
+    "total_voxels": 2166920,
+    "filled_voxels": 159297,
+    "gap_ratio_%": 92.65
   },
-  "runtime_seconds": 4464.06
+  "runtime_seconds": 6769.93
 }

@@ -10,6 +10,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import networkx as nx
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 from itertools import combinations
@@ -75,7 +77,6 @@ def load_fragments(path):
             pcd = mesh.sample_points_uniformly(number_of_points=MAX_POINTS * 2) \
                 if len(mesh.vertices) > 0 else o3d.io.read_point_cloud(f)
             pcd = boundary_sample(pcd, n_points=MAX_POINTS)
-            pcd=augment_pointcloud(pcd, n_aug=2)[0]
             pcd, _ = pca_align(pcd)
             pcd.estimate_normals(search_param=o3d.geometry.KDTreeSearchParamHybrid(radius=10.0, max_nn=30))
             print(f"    -> {len(pcd.points)} points")
@@ -147,6 +148,15 @@ def train_break_classifier(all_feats, all_labels):
 
     scaler = StandardScaler()
     X_sc = scaler.fit_transform(X_bal)
+    from sklearn.model_selection import StratifiedKFold
+    cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+    cv_scores = []
+    for tr_idx, te_idx in cv.split(X_sc, y_bal):
+        clf_cv = RandomForestClassifier(n_estimators=200, max_depth=15, min_samples_leaf=5,
+                                         class_weight="balanced", random_state=42, n_jobs=-1)
+        clf_cv.fit(X_sc[tr_idx], y_bal[tr_idx])
+        cv_scores.append((clf_cv.predict(X_sc[te_idx]) == y_bal[te_idx]).mean())
+    print(f"  5-fold CV accuracy: {np.mean(cv_scores)*100:.2f}% +/- {np.std(cv_scores)*100:.2f}%")
     X_tr, X_te, y_tr, y_te = train_test_split(X_sc, y_bal, test_size=0.2, random_state=42)
 
     clf = RandomForestClassifier(n_estimators=200, max_depth=15,
@@ -305,6 +315,27 @@ def icp_refine(src, dst, init_T, voxel_size):
     )
 
 
+
+def compute_planarity(pcd, voxel_size=5.0):
+    down = pcd.voxel_down_sample(voxel_size)
+    pts = np.asarray(down.points)
+    tree = o3d.geometry.KDTreeFlann(down)
+    planarities = []
+    for i in range(len(pts)):
+        k, idx, _ = tree.search_knn_vector_3d(pts[i], 10)
+        if k < 4:
+            continue
+        nb = pts[list(idx)]
+        cov = np.cov((nb - nb.mean(axis=0)).T)
+        ev = np.sort(np.abs(np.linalg.eigvalsh(cov)))[::-1] + 1e-10
+        planarities.append((ev[1] - ev[2]) / ev[0])
+    return np.mean(planarities) if planarities else 0
+
+def penalized_fitness(fitness, src, dst, voxel_size=5.0):
+    p_src = compute_planarity(src, voxel_size)
+    p_dst = compute_planarity(dst, voxel_size)
+    penalty = 1 - ((p_src + p_dst) / 2) ** 2
+    return fitness * penalty
 def multiscale_register(src, dst):
     best_fitness, best_T, best_rmse = 0, np.eye(4), 0
     for vs in [15.0, 10.0, 7.0, 5.0, 3.0, 2.0]:
@@ -328,8 +359,9 @@ def multiscale_register(src, dst):
                 fine = icp_refine(src, dst, icp.transformation, vs * 0.5)
                 if fine.fitness > icp.fitness:
                     icp = fine
-            if icp.fitness > best_fitness:
-                best_fitness, best_T, best_rmse = icp.fitness, icp.transformation, icp.inlier_rmse
+            penalized = penalized_fitness(icp.fitness, src, dst, vs)
+            if penalized > best_fitness:
+                best_fitness, best_T, best_rmse = penalized, icp.transformation, icp.inlier_rmse
         except Exception:
             continue
     return best_T, best_fitness, best_rmse
@@ -348,6 +380,7 @@ def build_pose_graph(clouds, ml_priority):
     pairs = sorted(combinations(range(n), 2),
                    key=lambda p: ml_priority.get(p, 0), reverse=True)
     total, done = len(pairs), 0
+    matched_break_surfaces = set()
 
     print(f"\ncomputing {total} registrations (ml-prioritized)...")
     for i, j in pairs:
@@ -358,7 +391,9 @@ def build_pose_graph(clouds, ml_priority):
         done += 1
         print(f"  [{done}/{total}] {ni[:12]} <-> {nj[:12]} | fitness={fitness:.3f} ml={ml_priority.get((i,j),0):.3f}")
 
-        if fitness > MIN_FITNESS:
+        pair_key = tuple(sorted([i, j]))
+        if fitness > MIN_FITNESS and pair_key not in matched_break_surfaces:
+            matched_break_surfaces.add(pair_key)
             pg.edges.append(o3d.pipelines.registration.PoseGraphEdge(
                 i, j, T, np.identity(6) * fitness, uncertain=(i+1 != j)))
 
