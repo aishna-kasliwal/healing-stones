@@ -73,3 +73,23 @@ Available on Google Drive: https://drive.google.com/drive/folders/1Jy0osy4LKdsE-
 - `break_classifier.pkl` — Random Forest break surface classifier
 - `relationship_predictor.pth` — Neural Network fragment relationship predictor
 - `vertical_order_net.pth` — Neural Network vertical ordering predictor
+
+## Known Limitations & Analysis
+
+### Overfitting in Registration
+The current pipeline shows overfitting to flat surfaces due to three compounding issues:
+
+**1. Flat surface bias**
+FPFH descriptors produce very strong features on flat surfaces. Since flat regions have high point density and low curvature variance, RANSAC consistently found high-fitness matches between flat faces across fragments — even when those faces were not actually adjacent on the original stele.
+
+**2. Small dataset problem**
+With only 17 fragments, the Random Forest and Neural Network were trained and tested on the same data with no held-out validation from unseen fragments. The models overfit to the specific geometric properties of these fragments rather than learning generalizable features.
+
+**3. PCA alignment side effect**
+Aligning fragments by principal axes before registration caused many fragments to rotate into similar orientations, making flat faces align artificially.
+
+### Proposed Fixes
+- Add planarity penalty to registration scoring to down-weight flat surface matches
+- Use cross-validation across fragments during ML training
+- Add break surface exclusivity constraint — once a break edge is matched, remove it from future candidates
+- Use 2D image data as additional signal to validate 3D matches, since 2D images preserve the original carved surface appearance
