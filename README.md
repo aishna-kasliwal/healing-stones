@@ -1,95 +1,91 @@
 # Healing Stones — Mayan Stele Fragment Reconstruction
 
-## What this does
-Takes 17 3D scanned fragments of a Mayan stele (.PLY files) and reconstructs them into a single object using machine learning and geometric registration.
+Reconstructing a fragmented Mayan stele from 17 3D scanned fragments using machine learning and geometric registration.
 
-## How to run
+## Pipelines
 
-### Setup
+### 3D ML Pipeline (`reconstruct.py`)
+1. Load .PLY fragments → boundary-aware sampling → PCA alignment
+2. Extract geometric features per point (curvature, planarity, normal consistency etc.)
+3. Train Random Forest with 5-fold cross validation to classify break surfaces vs original stone
+4. Run initial RANSAC pass to generate relationship training data
+5. Train Neural Network to predict which fragment pairs are neighbors
+6. Use ML scores to prioritize registration order
+7. Run multi-scale RANSAC + ICP with planarity penalty (6 scales)
+8. Break surface exclusivity — matched edges removed from future candidates
+9. Global pose graph optimization
+10. Assemble fragments + detect missing material regions
+
+### 2D Pipeline (`reconstruct_2d.py`)
+1. Load PNG fragments
+2. Extract SIFT keypoints + contour shape descriptors
+3. Match all fragment pairs
+4. Estimate layout via homography
+
+### Fragment Ancestry Graph (`ancestry.py`)
+1. Extract geometric properties per fragment (volume, aspect ratio, curvature, carving depth)
+2. Detect front vs back facing fragments using normal direction analysis
+3. Train neural network to predict vertical position (top → bottom)
+4. Estimate horizontal positions (left → right)
+5. Build directed ancestry graph of spatial relationships
+
+## Results
+
+| Metric | Before fixes | After fixes |
+|--------|-------------|-------------|
+| Break classifier accuracy | 97.57% | 97.66% |
+| Match coverage | 51.47% | 47.79% |
+| Gap ratio | 94.4% | 92.65% |
+| Max fitness | 1.0 | 0.9456 |
+
+Note: Coverage reduction is expected as planarity penalty correctly rejects false flat surface matches, producing fewer but more accurate results.
+
+## Setup
 ```bash
 conda create -n healing python=3.10 -y
 conda activate healing
 pip install -r requirements.txt
 ```
 
-### 3D reconstruction (main)
+## Run
 ```bash
+# 3D ML reconstruction
 python reconstruct.py
-```
 
-### 2D reconstruction
-```bash
+# 2D reconstruction
 python reconstruct_2d.py
+
+# Fragment ancestry graph
+python ancestry.py
 ```
 
-Both scripts run fully automated with no user intervention. Works on any .PLY or .OBJ files — just change `FRAGMENT_DIR` at the top of `reconstruct.py`.
-
-## Pipeline (reconstruct.py)
-
-1. Load .PLY fragments → sample points → PCA align → boundary-aware sampling
-2. Extract geometric features per point (curvature, planarity, normal consistency etc.)
-3. Train Random Forest to classify break surfaces vs original stone surface
-4. Run initial RANSAC registration pass to generate training data
-5. Train Neural Network to predict which fragment pairs are neighbors
-6. Use ML scores to prioritize registration order
-7. Run multi-scale RANSAC + ICP registration across all fragment pairs (6 scales)
-8. Optimize global pose graph
-9. Assemble fragments + detect missing material regions
-
-## Pipeline (reconstruct_2d.py)
-
-1. Load PNG fragments
-2. Extract SIFT keypoints + contour shape descriptors
-3. Match all fragment pairs
-4. Estimate layout via homography
-5. Output match scores + reconstructed layout
-
-## Results
-
-| Metric | Value |
-|--------|-------|
-| Break surface classifier accuracy | 97.57% |
-| Match coverage | 51.47% |
-| Max registration fitness | 1.0 |
-| Gap ratio (missing material) | 94.4% |
-| Total fragments | 17 |
-
-## Outputs
-All saved automatically to `output_ml/` and `output_2d/`:
-- `reconstructed_stele.ply` — final assembled stele
-- `metrics_ml.json` — all metrics
-- `break_surfaces.png` — ML-detected break surfaces (red)
-- `confusion_matrix.png` — classifier performance
-- `training_curves.png` — neural network training
-- `feature_importance.png` — which geometric features matter most
-- `fitness_matrix.png` — pairwise registration heatmap
-- `connectivity_graph.png` — fragment connectivity
-- `before_after.png` — before vs after registration
+## Output
+- `output_ml/reconstructed_stele.ply` — assembled 3D stele
+- `output_ml/metrics_ml.json` — all metrics
+- `output_ml/break_surfaces.png` — ML-detected break surfaces
+- `output_ml/confusion_matrix.png` — classifier evaluation
+- `output_ml/training_curves.png` — NN training curves
+- `output_ml/feature_importance.png` — RF feature importance
+- `output_ml/fitness_matrix.png` — pairwise registration heatmap
+- `output_ml/connectivity_graph.png` — fragment connectivity
+- `output_ml/before_after.png` — before vs after registration
+- `output_ancestry/ancestry_graph.png` — directed spatial graph
+- `output_ancestry/spatial_layout.png` — predicted stele layout
+- `output_ancestry/vertical_ordering.png` — top to bottom ordering
+- `output_2d/` — 2D pipeline outputs
 
 ## Pre-trained Models
+https://drive.google.com/drive/folders/1Jy0osy4LKdsE-N0MY2ZOhBHG0SHG-j_V?usp=sharing
 
-Available on Google Drive: https://drive.google.com/drive/folders/1Jy0osy4LKdsE-N0MY2ZOhBHG0SHG-j_V?usp=sharing
+## Known Limitations & Overfitting Analysis
 
-- `break_classifier.pkl` — Random Forest break surface classifier
-- `relationship_predictor.pth` — Neural Network fragment relationship predictor
-- `vertical_order_net.pth` — Neural Network vertical ordering predictor
+### Why overfitting occurred
+1. **Flat surface bias** — FPFH descriptors produce strong features on flat surfaces, causing RANSAC to match flat faces even when not adjacent
+2. **Small dataset** — 17 fragments meant ML models were trained and tested on same data with no unseen validation
+3. **PCA alignment side effect** — aligning by principal axes caused fragments to rotate into similar orientations artificially
 
-## Known Limitations & Analysis
-
-### Overfitting in Registration
-The current pipeline shows overfitting to flat surfaces due to three compounding issues:
-
-**1. Flat surface bias**
-FPFH descriptors produce very strong features on flat surfaces. Since flat regions have high point density and low curvature variance, RANSAC consistently found high-fitness matches between flat faces across fragments — even when those faces were not actually adjacent on the original stele.
-
-**2. Small dataset problem**
-With only 17 fragments, the Random Forest and Neural Network were trained and tested on the same data with no held-out validation from unseen fragments. The models overfit to the specific geometric properties of these fragments rather than learning generalizable features.
-
-**3. PCA alignment side effect**
-Aligning fragments by principal axes before registration caused many fragments to rotate into similar orientations, making flat faces align artificially.
-
-### Proposed Fixes
-- Add planarity penalty to registration scoring to down-weight flat surface matches
-- Use cross-validation across fragments during ML training
-- Add break surface exclusivity constraint — once a break edge is matched, remove it from future candidates
-- Use 2D image data as additional signal to validate 3D matches, since 2D images preserve the original carved surface appearance
+### Fixes applied
+1. **Planarity penalty** — flat surface matches down-weighted using local neighborhood eigenvalues
+2. **5-fold cross validation** — more reliable accuracy estimate across folds
+3. **Break surface exclusivity** — matched edges removed from future candidates
+4. **Next step** — using 2D image data to validate 3D matches using carved surface appearance
